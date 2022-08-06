@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="239" height="88">&nbsp;</td>
+    <td width="206">&nbsp;</td>
+    <td width="155">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="222">&nbsp;</td>
+    <td><img src="/Error Pages/saylogo.png" width="300" height="300" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="210" >&nbsp;</td>
+    <td align="center"><p style="font-size:22px;">Sayfa Bulunamadı! <br><br> İlgili Sayfa Kaldırılmış Olabilir! </p> <br><br>
+      <p style="font-size:22px;">Bir önceki sayfaya dönmek için <a href="" onclick="javascript: if (document.referrer == '') { location.href='/' } else { history.back();} return false;">tıklayınız</a></p>
+	  </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
