@@ -1,0 +1,154 @@
+HESAP_KOD ,HESAP_ADI                                                                              ,HESAP
+      100 ,KASA HESABI                                                                            ,100 KASA
+      101 ,ALINAN ÇEKLER HESABI                                                                   ,101 ALINAN
+      102 ,BANKA HESABI                                                                           ,102 BANKA
+      103 ,VERİLEN ÇEKLER VE GÖNDERME EMİRLERİ HESABI                                             ,103 VERİLEN
+      104 ,PROJE ÖZEL HESABI                                                                      ,104 PROJE
+      105 ,DÖVİZ HESABI                                                                           ,105 DÖVİZ
+      106 ,DÖVİZ GÖNDERME EMİRLERİ HESABI                                                         ,106 DÖVİZ
+      108 ,DİĞER HAZIR DEĞERLER HESABI                                                            ,108 DİĞER
+      109 ,BANKA KREDİ KARTLARINDAN ALACAKLAR HESABI                                              ,109 BANKA
+      110 ,HİSSE SENETLERİ HESABI                                                                 ,110 HİSSE
+      111 ,ÖZEL KESİM TAHVİL SENET VE BONOLARI HESABI                                             ,111 ÖZEL
+      112 ,KAMU KESİMİ TAHVİL SENET VE BONOLARI HESABI                                            ,112 KAMU
+      117 ,MENKUL VARLIKLAR HESABI                                                                ,117 MENKUL
+      120 ,GELİRLERDEN  ALACAKLAR  HESABI                                                         ,120 GELİRLERDEN
+      121 ,GELİRLERDEN TAKİPLİ ALACAKLAR HESABI                                                   ,121 GELİRLERDEN
+      122 ,GELİRLERDEN TECİLLİ VE TEHİRLİ ALACAKLAR HESABI                                        ,122 GELİRLERDEN
+      126 ,VERİLEN DEPOZİTO VE TEMİNATLAR HESABI                                                  ,126 VERİLEN
+      127 ,DİĞER FAALİYET ALACAKLARI HESABI                                                       ,127 DİĞER
+      132 ,KURUMCA VERİLEN BORÇLARDAN ALACAKLAR HESABI                                            ,132 KURUMCA
+      137 ,TAKİPTEKİ KURUM ALACAKLARI HESABI                                                      ,137 TAKİPTEKİ
+      139 ,DİĞER KURUM ALACAKLARI HESABI                                                          ,139 DİĞER
+      140 ,KİŞİLERDEN ALACAKLAR HESABI                                                            ,140 KİŞİLERDEN
+      150 ,İLK MADDE VE MALZEME  HESABI                                                           ,150 İLK
+      153 ,TİCARİ MALLAR HESABI                                                                   ,153 TİCARİ
+      157 ,DİĞER STOKLAR HESABI                                                                   ,157 DİĞER
+      160 ,İŞ AVANS VE KREDİLERİ HESABI                                                           ,160 İŞ
+      161 ,PERSONEL AVANSLARI HESABI                                                              ,161 PERSONEL
+      162 ,BÜTÇE DIŞI AVANS VE KREDİLER HESABI                                                    ,162 BÜTÇE
+      164 ,AKREDİTİFLER HESABI                                                                    ,164 AKREDİTİFLER
+      165 ,MAHSUP DÖNEMİNE AKTARILAN AVANS VE KREDİLER HESABI                                     ,165 MAHSUP
+      166 ,PROJE ÖZEL HESABINDAN VERİLEN AVANS VE AKREDİTİFLER HESABI                             ,166 PROJE
+      167 ,DOĞRUDAN DIŞ PROJE KREDİ KULLANIMLARI AVANS VE AKREDİFLERİ HESABI                      ,167 DOĞRUDAN
+      180 ,GELECEK AYLARA AİT GİDERLER HESABI                                                     ,180 GELECEK
+      190 ,DEVREDEN KATMA DEĞER VERGİSİ HESABI                                                    ,190 DEVREDEN
+      191 ,İNDİRİLECEK KATMA DEĞER VERGİSİ HESABI                                                 ,191 İNDİRİLECEK
+      197 ,SAYIM NOKSANLARI HESABI                                                                ,197 SAYIM
+      198 ,DİĞER ÇEŞİTLİ DÖNEN VARLIKLAR HESABI                                                   ,198 DİĞER
+      217 ,MENKUL VARLIKLAR HESABI                                                                ,217 MENKUL
+      220 ,GELİRLERDEN ALACAKLAR HESABI                                                           ,220 GELİRLERDEN
+      222 ,GELİRLERDEN TECİLLİ VE TEHİRLİ ALACAKLAR HESABI                                        ,222 GELİRLERDEN
+      226 ,VERİLEN DEPOZİTO VE TEMİNATLAR HESABI                                                  ,226 VERİLEN
+      227 ,DİĞER FAALİYET ALACAKLARI HESABI                                                       ,227 DİĞER
+      232 ,KURUMCA VERİLEN BORÇLARDAN ALACAKLAR HESABI                                            ,232 KURUMCA
+      239 ,DİĞER KURUM ALACAKLARI HESABI                                                          ,239 DİĞER
+      240 ,MALİ KURULUŞLARA YATIRILAN SERMAYELER HESABI                                           ,240 MALİ
+      241 ,MAL VE HİZMET ÜRETEN KURULUŞLARA YATIRILAN SERMAYELER HESABI                           ,241 MAL
+      247 ,SERMAYE TAAHHÜTLERİ HESABI                                                             ,247 SERMAYE
+      250 ,ARAZİ VE ARSALAR HESABI                                                                ,250 ARAZİ
+      251 ,YERALTI VE YERÜSTÜ DÜZENLERİ HESABI                                                    ,251 YERALTI
+      252 ,BİNALAR HESABI                                                                         ,252 BİNALAR
+      253 ,"TESİS, MAKİNE VE CİHAZLAR HESABI"                                                     ,"253 TESİS,"
+      254 ,TAŞITLAR HESABI                                                                        ,254 TAŞITLAR
+      255 ,DEMİRBAŞLAR HESABI                                                                     ,255 DEMİRBAŞLAR
+      256 ,HİZMET İMTİYAZ VARLIKLARI HESABI                                                       ,256 HİZMET
+      257 ,BİRİKMİŞ AMORTİSMANLAR HESABI                                                          ,257 BİRİKMİŞ
+      258 ,YAPILMAKTA OLAN YATIRIMLAR HESABI                                                      ,258 YAPILMAKTA
+      259 ,YATIRIM AVANSLARI HESABI                                                               ,259 YATIRIM
+      260 ,HAKLAR HESABI                                                                          ,260 HAKLAR
+      264 ,ÖZEL MALİYETLER HESABI                                                                 ,264 ÖZEL
+      268 ,BİRİKMİŞ AMORTİSMANLAR HESABI                                                          ,268 BİRİKMİŞ
+      280 ,GELECEK YILLARA  AİT GİDERLER HESABI                                                   ,280 GELECEK
+      281 ,GELİR TAHAKKUKLARI HESABI                                                              ,281 GELİR
+      294 ,ELDEN ÇIKARILACAK STOKLAR VE MADDİ DURAN VARLIKLAR HESABI                              ,294 ELDEN
+      297 ,DİĞER ÇEŞİTLİ DURAN VARLIKLAR HESABI                                                   ,297 DİĞER
+      299 ,BİRİKMİŞ AMORTİSMANLAR HESABI                                                          ,299 BİRİKMİŞ
+      300 ,BANKA KREDİLERİ HESABI                                                                 ,300 BANKA
+      303 ,KAMU İDARELERİNE MALİ BORÇLAR HESABI                                                   ,303 KAMU
+      304 ,CARİ YILDA ÖDENECEK TAHVİLLER HESABI                                                   ,304 CARİ
+      307 ,FİNANSAL KİRALAMA İŞLEMLERİNDEN BORÇLAR HESABI                                         ,307 FİNANSAL
+      308 ,ERTELENMİŞ FİNANSAL KİRALAMA BORÇLANMA MALİYETLERİ HESABI                              ,308 ERTELENMİŞ
+      309 ,KISA VADELİ DİĞER İÇ MALİ BORÇLAR HESABI                                               ,309 KISA
+      310 ,CARİ YILDA ÖDENECEK DIŞ MALİ BORÇLAR HESABI                                            ,310 CARİ
+      320 ,BÜTÇE EMANETLERİ HESABI                                                                ,320 BÜTÇE
+      322 ,BÜTÇELEŞTİRİLECEK BORÇLAR HESABI                                                       ,322 BÜTÇELEŞTİRİLECEK
+      329 ,DİĞER ÇEŞİTLİ BORÇLAR HESABI                                                           ,329 DİĞER
+      330 ,ALINAN DEPOZİTO VE TEMİNATLAR HESABI                                                   ,330 ALINAN
+      333 ,EMANETLER HESABI                                                                       ,333 EMANETLER
+      340 ,ALINAN SİPARİŞ AVANSLARI HESABI                                                        ,340 ALINAN
+      349 ,ALINAN DİĞER AVANSLAR HESABI                                                           ,349 ALINAN
+      360 ,ÖDENECEK VERGİ VE FONLAR HESABI                                                        ,360 ÖDENECEK
+      361 ,ÖDENECEK SOSYAL GÜVENLİK KESİNTİLERİ HESABI                                            ,361 ÖDENECEK
+      362 ,FONLAR VEYA DİĞER KAMU İDARELERİ  ADINA YAPILAN TAHSİLAT HESABI                        ,362 FONLAR
+      363 ,KAMU İDARELERİ PAYLARI HESABI                                                          ,363 KAMU
+      368 ,"VADESİ GEÇMİŞ, ERTELENMİŞ VEYA TAKSİTLENDİRİLMİŞ VERGİ VE DİĞER YÜKÜMLÜLÜKLER HESABI" ,368 VADESİ
+      372 ,KIDEM TAZMİNATI KARŞILIĞI HESABI                                                       ,372 KIDEM
+      379 ,DİĞER BORÇ VE GİDER KARŞILIKLARI HESABI                                                ,379 DİĞER
+      380 ,GELECEK AYLARA AİT GELİRLER HESABI                                                     ,380 GELECEK
+      381 ,GİDER TAHAKKUKLARI HESABI                                                              ,381 GİDER
+      391 ,HESAPLANAN KATMA DEĞER VERGİSİ HESABI                                                  ,391 HESAPLANAN
+      397 ,SAYIM FAZLALARI HESABI                                                                 ,397 SAYIM
+      399 ,DİĞER ÇEŞİTLİ KISA VADELİ YABANCI KAYNAKLAR HESABI                                     ,399 DİĞER
+      400 ,BANKA KREDİLERİ HESABI                                                                 ,400 BANKA
+      403 ,KAMU İDARELERİNE MALİ BORÇLAR HESABI                                                   ,403 KAMU
+      404 ,TAHVİLLER HESABI                                                                       ,404 TAHVİLLER
+      407 ,FİNANSAL KİRALAMA İŞLEMLERİNDEN BORÇLAR HESABI                                         ,407 FİNANSAL
+      408 ,ERTELENMİŞ FİNANSAL KİRALAMA BORÇLANMA MALİYETLERİ HESABI                              ,408 ERTELENMİŞ
+      409 ,UZUN VADELİ DİĞER İÇ MALİ BORÇLAR HESABI                                               ,409 UZUN
+      410 ,DIŞ MALİ BORÇLAR HESABI                                                                ,410 DIŞ
+      429 ,DİĞER FAALİYET BORÇLARI HESABI                                                         ,429 DİĞER
+      430 ,ALINAN DEPOZİTO VE TEMİNATLAR HESABI                                                   ,430 ALINAN
+      438 ,KAMUYA OLAN ERTELENMİŞ VEYA TAKSİTLENDİRİLMİŞ BORÇLAR HESABI                           ,438 KAMUYA
+      440 ,ALINAN SİPARİŞ AVANSLARI HESABI                                                        ,440 ALINAN
+      449 ,ALINAN DİĞER AVANSLAR HESABI                                                           ,449 ALINAN
+      472 ,KIDEM TAZMİNATI KARŞILIĞI HESABI                                                       ,472 KIDEM
+      479 ,DİĞER BORÇ VE GİDER KARŞILIKLARI HESABI                                                ,479 DİĞER
+      480 ,GELECEK YILLARA AİT GELİRLER HESABI                                                    ,480 GELECEK
+      481 ,GİDER TAHAKKUKLARI HESABI                                                              ,481 GİDER
+      499 ,DİĞER UZUN VADELİ YABANCI KAYNAKLAR HESABI                                             ,499 DİĞER
+      500 ,NET DEĞER HESABI                                                                       ,500 NET
+      511 ,MUHASEBE BİRİMLERİ ARASI İŞLEMLER HESABI                                               ,511 MUHASEBE
+      519 ,DEĞER HAREKETLERİ SONUÇ HESABI                                                         ,519 DEĞER
+      570 ,GEÇMİŞ YILLAR OLUMLU FAALİYET SONUÇLARI HESABI                                         ,570 GEÇMİŞ
+      580 ,GEÇMİŞ YILLAR OLUMSUZ FAALİYET SONUÇLARI HESABI                                        ,580 GEÇMİŞ
+      590 ,DÖNEM OLUMLU FAALİYET SONUCU HESABI                                                    ,590 DÖNEM
+      591 ,DÖNEM OLUMSUZ FAALİYET SONUCU HESABI                                                   ,591 DÖNEM
+      600 ,GELİRLER HESABI                                                                        ,600 GELİRLER
+      630 ,GİDERLER HESABI                                                                        ,630 GİDERLER
+      690 ,FAALİYET SONUÇLARI HESABI                                                              ,690 FAALİYET
+      698 ,ENFLASYON DÜZELTMESİ HESABI                                                            ,698 ENFLASYON
+      800 ,BÜTÇE GELİRLERİ HESABI                                                                 ,800 BÜTÇE
+      805 ,GELİR YANSITMA HESABI                                                                  ,805 GELİR
+      810 ,BÜTÇE GELİRLERİNDEN RET VE İADELER HESABI                                              ,810 BÜTÇE
+      830 ,BÜTÇE GİDERLERİ HESABI                                                                 ,830 BÜTÇE
+      834 ,GEÇEN YIL BÜTÇE MAHSUPLARI HESABI                                                      ,834 GEÇEN
+      835 ,GİDER YANSITMA HESAPLARI                                                               ,835 GİDER
+      895 ,BÜTÇE UYGULAMA SONUÇLARI HESABI                                                        ,895 BÜTÇE
+      900 ,GÖNDERİLECEK BÜTÇE ÖDENEKLERİ HESABI                                                   ,900 GÖNDERİLECEK
+      901 ,BÜTÇE ÖDENEKLERİ HESABI                                                                ,901 BÜTÇE
+      902 ,BÜTÇE ÖDENEK HAREKETLERİ HESABI                                                        ,902 BÜTÇE
+      903 ,KULLANILACAK ÖDENEKLER HESABI                                                          ,903 KULLANILACAK
+      904 ,ÖDENEKLER HESABI                                                                       ,904 ÖDENEKLER
+      905 ,ÖDENEKLİ GİDERLER HESABI                                                               ,905 ÖDENEKLİ
+      906 ,MAHSUP DÖNEMİNE AKTARILAN KULLANILACAK ÖDENEKLER HESABI                                ,906 MAHSUP
+      907 ,MAHSUP DÖNEMİNE AKTARILAN ÖDENEKLER HESABI                                             ,907 MAHSUP
+      910 ,ALINAN TEMİNAT MEKTUPLARI HESABI                                                       ,910 ALINAN
+      911 ,ALINAN TEMİNAT MEKTUPLARI EMANETLERİ HESABI                                            ,911 ALINAN
+      912 ,KİŞİLERE AİT MENKUL KIYMETLER HESABI                                                   ,912 KİŞİLERE
+      913 ,KİŞİLERE AİT MENKUL KIYMET EMANETLERİ HESABI                                           ,913 KİŞİLERE
+      914 ,VERİLEN TEMİNAT MEKTUPLARI HESABI                                                      ,914 VERİLEN
+      915 ,VERİLEN TEMİNAT MEKTUPLARI KARŞILIĞI HESABI                                            ,915 VERİLEN
+      920 ,GİDER TAAHHÜTLERİ HESABI                                                               ,920 GİDER
+      921 ,GİDER TAAHHÜTLERİ KARŞILIĞI HESABI                                                     ,921 GİDER
+      922 ,KAMU-ÖZEL İŞ BİRLİĞİ MODELİ TAAHHÜTLERİ HESABI                                         ,922 KAMU-ÖZEL
+      923 ,KAMU-ÖZEL İŞBİRLİĞİ MODELİ TAAHHÜTLERİ KARŞILIĞI HESABI                                ,923 KAMU-ÖZEL
+      930 ,VERİLEN GARANTİLER Hesabı                                                              ,930 VERİLEN
+      931 ,VERİLEN GARANTİLER KARŞILIĞI HESABI                                                    ,931 VERİLEN
+      934 ,BORÇ ÜSTLENİM TAAHHÜTLERİ HESABI                                                       ,934 BORÇ
+      935 ,BORÇ ÜSTLENİM TAAHHÜTLERİ KARŞILIĞI HESABI                                             ,935 BORÇ
+      948 ,BAŞKA BİRİMLER ADINA İZLENEN ALACAKLAR HESABI                                          ,948 BAŞKA
+      949 ,BAŞKA BİRİMLER ADINA İZLENEN ALACAK EMANETLERİ HESABI                                  ,949 BAŞKA
+      990 ,"KİRAYA VERİLEN, İRTİFAK HAKKI TESİS EDİLEN MADDİ DURAN VARLIKLARIN KAYITLI DEĞERİ"    ,990 KİRAYA
+      993 ,MADDİ DURAN VARLIKLARIN KİRA VE İRTİFAK HAKKI GELİRLERİ                                ,993 MADDİ
+      999 ,DİĞER NAZIM HESAPLAR KARŞILIĞI HESABI                                                  ,999 DİĞER
