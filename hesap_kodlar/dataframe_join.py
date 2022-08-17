@@ -17,5 +17,7 @@ print(df)
 df.to_csv('/home/ubuntu/say_rapor_analiz/hesap_kodlar/sonuçla_join_yapılacak_hesap_adları.csv', index=False)
 
 df_joinli=pd.merge(df, df_sonuc, on='HESAP',  how='inner')
+df_joinli['YIL']=df_joinli['KURUM'].str.split('_').str[-1]
+df_joinli['KURUM']=df_joinli['KURUM'].str.split('_').str[0]
 df_joinli.to_csv('/home/ubuntu/say_rapor_analiz/hesap_kodlar/SON_joinli.csv',index=False)
 

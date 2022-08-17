@@ -1,11 +1,10 @@
-from selenium import webdriver
+import re
 import time
+from pprint import pprint
 import pandas as pd
+from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-import re
-from pprint import pprint
-
 
 chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
@@ -27,7 +26,7 @@ yil=[]
 
 cols = ['KURUM', 'YIL', 'LINK']
 
-elems = browser.find_elements(by=By.XPATH, value='//a[@href]')
+elems = browser.find_elements(by=By.XPATH, value='//a[@href]') 
 for elem in elems:
     
     if re.match(r"https:\/\/www\.sayistay\.gov\.tr\/reports\/[0-9]{4}.*", str(elem.get_attribute("href"))):
