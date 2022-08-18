@@ -1,12 +1,20 @@
+#from selenium.webdriver.chrome.options import Options
+
 import re
 import time
 from pprint import pprint
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.by import By
 
-chrome_options = Options()
+opts = FirefoxOptions()
+opts.add_argument("--headless")
+browser = webdriver.Firefox(options=opts)
+
+
+
+""" chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-gpu')
@@ -14,7 +22,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--profile-directory=Default')
 chrome_options.add_argument('--user-data-dir=~/.config/google-chrome')
 
-browser = webdriver.Chrome(options=chrome_options)
+browser = webdriver.Chrome(options=chrome_options) """
 top_html="https://www.sayistay.gov.tr/reports/category/31-belediyeler---bagli-idareler"
 browser.get(top_html)
 
@@ -30,8 +38,6 @@ elems = browser.find_elements(by=By.XPATH, value='//a[@href]')
 for elem in elems:
     
     if re.match(r"https:\/\/www\.sayistay\.gov\.tr\/reports\/[0-9]{4}.*", str(elem.get_attribute("href"))):
-        #attrs = browser.execute_script('var items = {}; for (index = 0; index < arguments[0].attributes.length; ++index) { items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value }; return items;', elem)
-        #pprint(attrs)
         e=elem.get_attribute("href").strip()
         first_part = e[0:36]
         last_part=e[36:]
