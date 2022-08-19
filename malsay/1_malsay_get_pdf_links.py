@@ -23,18 +23,18 @@ chrome_options.add_argument('--profile-directory=Default')
 chrome_options.add_argument('--user-data-dir=~/.config/google-chrome')
 
 browser = webdriver.Chrome(options=chrome_options) """
+
+
 top_html="https://www.sayistay.gov.tr/reports/category/31-belediyeler---bagli-idareler"
 browser.get(top_html)
-
 html = browser.page_source
 #print(html)
 links=[]
 kurum=[]
 yil=[]
-
 cols = ['KURUM', 'YIL', 'LINK']
-
 elems = browser.find_elements(by=By.XPATH, value='//a[@href]') 
+
 for elem in elems:
     
     if re.match(r"https:\/\/www\.sayistay\.gov\.tr\/reports\/[0-9]{4}.*", str(elem.get_attribute("href"))):
