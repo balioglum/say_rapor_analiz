@@ -1,4 +1,5 @@
 
+# PDF'leri download ediyor
 import urllib.request
 import csv
 import os

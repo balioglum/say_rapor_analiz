@@ -60,7 +60,7 @@ for filename in  sorted(glob.glob(f'{directory}/*')):
 
     for element in hesap_kod:
             temp.append(element) #hesap kodu, aranacak 
-            count.append(string.count(element.translate(lower_map))) # html'den oluşturulan stringin içinde elemen kaç defa geçiyor!
+            count.append(string.count(element.translate(lower_map))) # html'den oluşturulan stringin içinde element kaç defa geçiyor!
             kurum.append(Path(filename).stem) #kurum adı, html dosya adından alıyor
             
 a=list(zip(kurum,temp,count))

@@ -10,7 +10,7 @@ import os
 from pathlib import Path
  
 # assign directory
-directory = '/root/malsay_files/'
+directory = '/root/malsay_files/' #pdf'lerim olduğu directory
 kurum=[]
 baslik=[]
 yil=[]

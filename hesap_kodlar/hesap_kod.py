@@ -8,11 +8,11 @@ from pathlib import Path
 pd.set_option('display.max_rows', None)
 
 #hsap kodları listesi
-df= pd.read_csv("/root/hesap_kodlar/hesap_plan.csv", delimiter=";")
+df= pd.read_csv("/home/ubuntu/say_rapor_analiz/hesap_kodlar/hesap_plan.csv", delimiter=";")
 df["ARANACAK"]=df["HESAP_KOD"].astype(str)+" "+df["HESAP_ADI"]
 
 
-html_file="/root/malsay_html_files/ANKARA BÜYÜKŞEHİR BELEDİYESİ_2019.html"
+html_file="/home/ubuntu/say_rapor_analiz/malsay_html_files/ANKARA BÜYÜKŞEHİR BELEDİYESİ_2019.html"
 html_file_to_read = open(html_file,'r').read()
 soup = BeautifulSoup(html_file_to_read, 'html.parser')
 

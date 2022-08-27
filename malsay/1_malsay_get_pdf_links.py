@@ -45,8 +45,8 @@ for elem in elems:
         print(f"{first_part}download/{last_part}")
         links.append(rapor_link)
         
-        kurumun_ismi=elem.get_attribute("text").strip()
-        kurum_ad, rapor_yil = kurumun_ismi[:-4].strip(), kurumun_ismi[-4:].strip()
+        kurumun_ismi=elem.get_attribute("text").strip() #ADANA BÜYÜKŞEHİR BELEDİYESİ 2020
+        kurum_ad, rapor_yil = kurumun_ismi[:-4].strip(), kurumun_ismi[-4:].strip() # son 4 öncesi kurum ismi, son 4 yılı
         kurum.append(kurum_ad)
         yil.append(rapor_yil)
         
