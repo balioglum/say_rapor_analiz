@@ -40,13 +40,13 @@ lower_map = {
 pd.set_option('display.max_rows', None)
 
 #hesap kodları listesi
-df= pd.read_csv("/root/hesap_kodlar/hesap_plan.csv", delimiter=";")
+df= pd.read_csv("/home/ubuntu/say_rapor_analiz/hesap_kodlar/hesap_plan.csv", delimiter=";")
 df["ARANACAK"]=df["HESAP_KOD"].astype(str)+" "+df["HESAP_ADI"]
 #df=pd.read_csv('/root/hesap_kodlar/hesap_plan_tum.csv', delimiter=";",encoding='utf-8-sig')
 # df["ARANACAK"]=df["HESAP_ADI"]
 print(df)
 
-directory = '/root/malsay_html_files'
+directory = '/home/ubuntu/say_rapor_analiz/malsay_html_files'
 temp = []
 count=[]
 kurum=[]

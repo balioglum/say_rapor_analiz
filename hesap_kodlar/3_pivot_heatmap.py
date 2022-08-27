@@ -11,17 +11,12 @@ df=pd.read_csv('/home/ubuntu/say_rapor_analiz/hesap_kodlar/SON_joinli.csv',heade
 
 print(df.dtypes)
 df['HESAP_ADI']=df['HESAP_KOD'].astype(str)+" "+df['HESAP_ADI'].astype(str)
-
+#ANCHOR pivot tablo oluşturma
 data= pd.pivot_table(df, values='FREKANS', index='HESAP_ADI', columns='YIL', aggfunc=np.sum,fill_value=0)
-
-
-print(data)
-
-print(data.dtypes)
-
-
 data.to_csv('/home/ubuntu/say_rapor_analiz/hesap_kodlar/hesap_kodu_yil_pivot.csv', encoding="utf-8-sig", sep="|")
 
+
+#BURADAN SONRASI İŞE YARAMAZ, EXCELE DOWNLOAD EDİP HEATMAPI EXCEL'de YAPIYORUM!
 #plot
 fig, ax = plt.subplots(figsize=(16,48))
 swarm_plot=sns.heatmap(data,fmt='.3g',cmap="YlGnBu", annot=True,cbar=False)
