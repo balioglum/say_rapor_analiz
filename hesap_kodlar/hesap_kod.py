@@ -1,3 +1,6 @@
+#BUNU KULLANMIYORUM, 
+# hesap_plan.csv dosyasındaki ARANACAK listesini, HTML dosyasının içinde arıyor!
+# TEK BİR HTML DOSYASINDA ARIYOR KELİMELERİ, bir klasdördeki tüm html dosyalarına bakmak için->> hesap_kod_LOOP.py
 import pandas as pd
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
